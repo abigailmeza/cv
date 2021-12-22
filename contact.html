@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <ul>
+      <li>Email: abigailsmeza@gmail.com</li>
+    </ul>
+<hr noshade>
+<br> <!-- form data is sent to given email address -->
+    <form action="mailto:info@londonappbrewery.com" method="post"
+    enctype="text/plain">
+    <!-- data in form is encoded in plain text -->
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value=""> <br> <!--input is a self-closing tag-->
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""> <br>
+      <label>Your Message:</label> <br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea> <br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
